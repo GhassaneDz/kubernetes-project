@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mysql
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: mysql
+  template:
+    metadata
+      name: 
+    label:
+      name: mysql
+    spec:
+      container: mysql
+      image: mysql
+      container: mysql
+      
